@@ -1,0 +1,7 @@
+.row
+	.small-12.medium-12.text-center.columns
+		%h1
+			= "Hi"
+			= current_user.name
+	.small-12.medium-12.text-center.columns
+		= link_to "Sign Out", sign_out_path, :class => "small button radius"
